@@ -7,8 +7,10 @@ int BinarySearch(int ST[10],int key){
 	low=0;
 	high=10;
 	for(int i=0;low<high;i++){
-		mid=(int)(low+high)/2;
-		if()
+		mid=low+high/2;
+		if(ST[mid]<key) low=mid+1
+		else if(ST[])
+
 	}
 	return value;
 }
