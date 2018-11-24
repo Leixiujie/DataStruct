@@ -17,10 +17,18 @@ int BinarySearch(int ST[10],int key){
 
 void main(){
 	int ST[10];
+	int snum,index;
+	
 	printf("Input numbers in order:\n");
 	for(int i=0;i<10;i++){
 		printf("Please input No.%d number:",i);
 		scanf("%d",&ST[i]);
 	}
 
+	printf("Please input the number what you want:\n");
+	scanf("%d",&snum);
+	index=-1;
+	index=BinarySearch(ST[10],snum);
+	if(index=-1) printf("it is not in this ST.");
+	else printf("It's index is %d.",index);
 }
