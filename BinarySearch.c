@@ -8,9 +8,9 @@ int BinarySearch(int ST[10],int key){
 	high=10;
 	for(int i=0;low<high;i++){
 		mid=low+high/2;
-		if(ST[mid]<key) low=mid+1
-		else if(ST[])
-
+		if(ST[mid]<key) low=mid+1;
+		else if(ST[mid]>key) high=mid-1;
+		else (return mid);
 	}
 	return value;
 }
