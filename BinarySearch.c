@@ -12,10 +12,15 @@ int BinarySearch(int ST[10],int key){
 		else if(ST[mid]>key) high=mid-1;
 		else (return mid);
 	}
-	return value;
+	return 0;
 }
 
 void main(){
 	int ST[10];
+	printf("Input numbers in order:\n");
+	for(int i=0;i<10;i++){
+		printf("Please input No.%d number:",i);
+		scanf("%d",&ST[i]);
+	}
 
 }
