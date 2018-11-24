@@ -10,10 +10,15 @@ int SequentialSearch(int ST,int key){
 
 int main(){
 	int ST[10];
-	for(int i=0;i<10;i++){
-		printf("Please input No.%d number:",i+1;)
+	int index,snum;
+	for(int i = 0;i<10;i++){
+		printf("Please input No.%d number:",i+1;);
+		scanf("%d",&ST[i]);
 	}
 
 	printf("Please input the number what you want");
-	SequentialSearch(ST,);
+	scanf("%d",&snum);
+	index = SequentialSearch(ST,snum);
+	if(index==-1) printf("The number is not here.");
+	else printf("its index is ")
 }
