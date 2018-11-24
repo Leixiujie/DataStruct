@@ -29,5 +29,5 @@ void main(){
 	scanf("%d",&snum);
 	index=BinarySearch(ST[10],snum);
 	if(index=-1) printf("it is not in this ST.");
-	else printf("It's index is %d.",index);
+	else printf("Its index is %d.",index);
 }
