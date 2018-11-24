@@ -12,7 +12,7 @@ int BinarySearch(int ST[10],int key){
 		else if(ST[mid]>key) high=mid-1;
 		else (return mid);
 	}
-	return 0;
+	return -1;
 }
 
 void main(){
@@ -27,7 +27,6 @@ void main(){
 
 	printf("Please input the number what you want:\n");
 	scanf("%d",&snum);
-	index=-1;
 	index=BinarySearch(ST[10],snum);
 	if(index=-1) printf("it is not in this ST.");
 	else printf("It's index is %d.",index);
