@@ -8,7 +8,7 @@ int SequentialSearch(int ST,int key){
 	return -1;
 }
 
-int main(){
+void main(){
 	int ST[10];
 	int index,snum;
 	for(int i = 0;i<10;i++){
@@ -20,5 +20,5 @@ int main(){
 	scanf("%d",&snum);
 	index = SequentialSearch(ST,snum);
 	if(index==-1) printf("The number is not here.");
-	else printf("its index is ")
+	else printf("its index is %d",index);
 }
