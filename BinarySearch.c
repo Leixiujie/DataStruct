@@ -21,7 +21,7 @@ void main(){
 	
 	printf("Input numbers in order:\n");
 	for(int i=0;i<10;i++){
-		printf("Please input No.%d number:",i);
+		printf("Please input No.%d number:",i+1);
 		scanf("%d",&ST[i]);
 	}
 
