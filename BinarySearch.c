@@ -27,7 +27,7 @@ void main(){
 
 	printf("Please input the number what you want:\n");
 	scanf("%d",&snum);
-	index=BinarySearch(ST[10],snum);
-	if(index=-1) printf("it is not in this ST.");
-	else printf("Its index is %d.",index);
+	index=BinarySearch(ST,snum);
+	if(index==-1) printf("it is not in this ST.");
+	else printf("Its index is %d.",index+1);
 }
