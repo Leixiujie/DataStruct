@@ -2,7 +2,8 @@
 #include<stdlib.h>
 
 int SequentialSearch(int ST,int key){
-	for(int i=0;i<10;i++){
+	int i; 
+	for(i=0;i<10;i++){
 		if(ST[i]==key) return i;
 	}
 	return -1;
@@ -10,8 +11,8 @@ int SequentialSearch(int ST,int key){
 
 void main(){
 	int ST[10];
-	int index,snum;
-	for(int i = 0;i<10;i++){
+	int i,index,snum;
+	for(i = 0;i<10;i++){
 		printf("Please input No.%d number:",i+1;);
 		scanf("%d",&ST[i]);
 	}
