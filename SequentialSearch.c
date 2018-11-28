@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int SequentialSearch(int ST,int key){
+int SequentialSearch(int ST[10],int key){
 	int i; 
 	for(i=0;i<10;i++){
 		if(ST[i]==key) return i;
@@ -13,7 +13,7 @@ void main(){
 	int ST[10];
 	int i,index,snum;
 	for(i = 0;i<10;i++){
-		printf("Please input No.%d number:",i+1;);
+		printf("Please input No.%d number:",i+1);
 		scanf("%d",&ST[i]);
 	}
 
